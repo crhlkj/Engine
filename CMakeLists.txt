@@ -31,7 +31,7 @@ target_include_directories(glad PUBLIC ${GLAD_DIR}/include)
 file(GLOB SOURCE_DIR 
 	${CMAKE_SOURCE_DIR}/src/*.cpp
 	${CMAKE_SOURCE_DIR}/src/*.h
-	${CMAKE_SOURCE_DIR}/src/core/*.cppw
+	${CMAKE_SOURCE_DIR}/src/core/*.cpp
 	${CMAKE_SOURCE_DIR}/src/core/*.h
 	${CMAKE_SOURCE_DIR}/src/core/object/*.cpp
 	${CMAKE_SOURCE_DIR}/src/core/object/*.h
