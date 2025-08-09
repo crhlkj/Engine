@@ -33,8 +33,6 @@ file(GLOB SOURCE_DIR
 	${CMAKE_SOURCE_DIR}/src/*.h
 	${CMAKE_SOURCE_DIR}/src/core/*.cpp
 	${CMAKE_SOURCE_DIR}/src/core/*.h
-	${CMAKE_SOURCE_DIR}/src/core/object/*.cpp
-	${CMAKE_SOURCE_DIR}/src/core/object/*.h
 )
 
 add_executable(Engine 
